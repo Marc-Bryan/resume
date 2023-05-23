@@ -1,0 +1,136 @@
+/*Create a CSS file and link it to your HTML file.*/
+/*Add classes to your HTML elements.*/
+/*Change the font of your web page to sans-serif./
+/*Change your web page’s background color to #f5f5f5.*/
+/*import awesome font*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.frame {
+    border-bottom: 5px solid black;
+    /*Separate the sections of your resume using a horizontal line.*/
+    border-bottom-right-radius: 5px;
+}
+
+
+.list {
+    list-style-type: none;
+    /*Remove the bullets from your lists*/
+    width: 500px;
+}
+
+img {
+    border: 3px solid grey;
+    /*Add a border to your profile picture.*/
+    border-radius: 50%;
+    /*Make your profile picture round.*/
+}
+
+.div_dp {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.linkedin {
+    text-decoration: none;
+    /*remove underline from links*/
+}
+
+
+.Full_Page {
+    display: flex;
+    height: max-content;
+    width: auto;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 260px;
+    height: 1200px;
+    margin-right: .5cm;
+}
+
+
+.contact_info {}
+
+.right_side {
+    display: flex;
+    height: 50%;
+    width: auto;
+}
+
+.Flavor-text {
+    padding-left: .5cm;
+    /* Adjust the padding as per your preference */
+}
+
+.FT {
+
+    font-size: small;
+    white-space: nowrap;
+    /*inline text*/
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .Full_Page {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left_side {
+        margin-right: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .right_side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: .5cm;
+    }
+
+    .contact_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .div_dp {
+        padding: 25px;
+    }
+
+    h2 {
+        padding: 0px;
+        height: auto;
+    }
+
+    i {
+        padding-right: 5px;
+    }
+
+}
