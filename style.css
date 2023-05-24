@@ -91,6 +91,10 @@ h3 {
     /*inline text*/
 }
 
+i {
+        padding-right: 5px;
+    }
+
 /* Media queries */
 @media screen and (max-width: 768px) {
     .Full_Page {
@@ -129,8 +133,6 @@ h3 {
         height: auto;
     }
 
-    i {
-        padding-right: 5px;
-    }
+    
 
 }
