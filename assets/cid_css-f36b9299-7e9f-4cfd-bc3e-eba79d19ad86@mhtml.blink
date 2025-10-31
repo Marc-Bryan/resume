@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@layer mui {
+  @-webkit-keyframes mui-auto-fill { 
+  0% { display: block; }
+}
+  @keyframes mui-auto-fill { 
+  0% { display: block; }
+}
+  @-webkit-keyframes mui-auto-fill-cancel { 
+  0% { display: block; }
+}
+  @keyframes mui-auto-fill-cancel { 
+  0% { display: block; }
+}
+}

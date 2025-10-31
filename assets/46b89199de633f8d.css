@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.jodit_editor_wrapper__vNSpv { background: rgb(231, 235, 242); border-radius: 5px; }
+
+.jodit_editor_wrapper__vNSpv .jodit-container { position: relative; border: none; }
+
+.jodit_editor_wrapper__vNSpv .jodit-toolbar__box { position: absolute; bottom: 0px; width: 100%; border-radius: 0px 0px 4px 4px; border-inline: 1px solid rgb(218, 218, 218); background-color: white; }
+
+.jodit_editor_wrapper__vNSpv .jodit-workplace { font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 1.4375em; letter-spacing: 0.00938em; color: rgba(0, 0, 0, 0.87); box-sizing: border-box; cursor: text; display: inline-flex; align-items: center; width: 100%; position: relative; border-top-left-radius: 4px; border-top-right-radius: 4px; background-color: rgb(231, 235, 242) !important; }
+
+.jodit_editor_wrapper__vNSpv .jodit-wysiwyg { transition: background-color 0.2s cubic-bezier(0, 0, 0.2, 1); padding: 0px 16px 8px !important; }
+
+.jodit_editor_wrapper__vNSpv .jodit-placeholder { padding: 0px 16px; }
+
+.jodit_editor_wrapper__vNSpv .jodit-wysiwyg > ol, .jodit_editor_wrapper__vNSpv .jodit-wysiwyg > ul { display: block; margin-block: 1em; margin-inline: 0px; padding-inline-start: 40px; }
+
+.jodit_editor_wrapper__vNSpv .jodit-wysiwyg ol { list-style-type: decimal; }
+
+.jodit_editor_wrapper__vNSpv .jodit-wysiwyg ul { list-style-type: disc; }
+
+.jodit_editor_wrapper__vNSpv .jodit-wysiwyg a { text-decoration: underline; color: rgb(0, 123, 255); }
+
+.jodit_jodit_form_group__4Y4gF { display: flex; flex-direction: column; margin-bottom: 8px; }
+
+.jodit_jodit-input-label__fD_Ij { font-size: 10px; color: gray; margin-bottom: 2px; }
+
+.jodit_jodit_input__lF4Yd { height: 32px; line-height: 32px; padding: 0px 8px; outline: none; min-width: 200px; border: 1px solid rgb(218, 218, 218); font-size: 14px; }
+
+.jodit_jodit_buttons__vzT3S { display: flex; justify-content: space-between; }
+
+.jodit_jodit_button__aeYje { appearance: none; background: 0px 0px; border: 0px; border-radius: 3px; box-shadow: none; box-sizing: border-box; cursor: pointer; font-style: normal; height: 34px; min-width: 38px; outline: 0px; padding: 0px 8px; position: relative; text-align: center; text-decoration: none; text-transform: none; user-select: none; }
+
+.jodit_jodit_unlink_button__261gq { background-color: rgb(227, 227, 227); color: rgb(33, 37, 41); }
+
+.jodit_jodit_link_insert_button__1HMck { background-color: rgb(0, 123, 255); color: rgb(255, 255, 255); }
+
+.jodit_richtextRuntimeWrapper__Rswmz a { color: rgb(0, 123, 255); text-decoration: underline; }
+
+.jodit_richtextRuntimeWrapper__Rswmz ol, .jodit_richtextRuntimeWrapper__Rswmz ul { margin-block: 0px; margin-inline: 0px; padding-inline-start: 20px; }
+
+.jodit_richtextRuntimeWrapper__Rswmz ul { list-style-type: disc; }
+
+.jodit_richtextRuntimeWrapper__Rswmz ol { list-style-type: decimal; }
